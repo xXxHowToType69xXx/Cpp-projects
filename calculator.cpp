@@ -19,6 +19,7 @@ int main(){
     cout << "---------------------------------" << endl;
     cout << "|    t    |    d     |     r    |" << endl;
     cout << "|   tan   | o -> rad | rad -> o |" << endl;
+    cout << "---------------------------------" << endl;
     cout << "|    c    |" << endl;
     cout << "|  clear  |" << endl;
 
