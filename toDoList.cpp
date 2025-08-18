@@ -223,7 +223,7 @@ void clearScreen();
             cin >> taskNumber;
             if(taskNumber >= 1 && taskNumber <= tasks.size())
             {
-                Tasks task = tasks[taskNumber - 1]; // correcting the user's` input
+                Tasks& task = tasks[taskNumber - 1]; // correcting the user's` input
                 string id, name, description, dueDate;
                 cin.ignore();
 
@@ -302,4 +302,5 @@ void clearScreen();
     #else
         system("clear");
     #endif
+
 }
